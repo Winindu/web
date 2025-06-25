@@ -5,11 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
   if (header) {
     window.addEventListener('scroll', () => {
       if (window.scrollY > 100) {
-        header.style.padding = '10px 0';
-        header.style.backgroundColor = 'rgba(10, 10, 10, 0.95)';
+        header.classList.add('scrolled');
       } else {
-        header.style.padding = '20px 0';
-        header.style.backgroundColor = 'var(--bg-dark)';
+        header.classList.remove('scrolled');
       }
     });
   }
@@ -58,7 +56,9 @@ function showNotification(message, type = 'info') {
   setTimeout(() => {
     notification.classList.remove('show');
     setTimeout(() => {
-      document.body.removeChild(notification);
+      if (document.body.contains(notification)) {
+        document.body.removeChild(notification);
+      }
     }, 300);
   }, 3000);
 }
