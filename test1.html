@@ -1,0 +1,179 @@
+    <div class="main-container">
+      <!-- <div class="background-effects">
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+        <div class="floating-particle"></div>
+      </div> -->
+      
+      <!-- <div class="header">
+        <h1 class="main-title">Gourmet Food Experience</h1>
+        <p class="subtitle">Discover culinary excellence in motion</p>
+      </div> -->
+      
+      <div class="carousel-wrapper">
+        <div class="carousel-container">
+          <!-- Outer rotating ring -->
+          <div class="food-ring" id="foodRing">
+            <div class="food-item" data-angle="0" data-food="pizza" data-direction="East">
+              <div class="food-card">
+                <div class="food-icon">🍕</div>
+                <div class="food-label">Margherita Pizza</div>
+                <div class="food-price">$18.99</div>
+                <div class="direction-label">East</div>
+              </div>
+            </div>
+            
+            <div class="food-item" data-angle="45" data-food="burger" data-direction="Northeast">
+              <div class="food-card">
+                <div class="food-icon">🍔</div>
+                <div class="food-label">Gourmet Burger</div>
+                <div class="food-price">$15.99</div>
+                <div class="direction-label">Northeast</div>
+              </div>
+            </div>
+            
+            <div class="food-item" data-angle="90" data-food="sushi" data-direction="North">
+              <div class="food-card">
+                <div class="food-icon">🍣</div>
+                <div class="food-label">Fresh Sushi</div>
+                <div class="food-price">$24.99</div>
+                <div class="direction-label">North</div>
+              </div>
+            </div>
+            
+            <div class="food-item" data-angle="135" data-food="taco" data-direction="Northwest">
+              <div class="food-card">
+                <div class="food-icon">🌮</div>
+                <div class="food-label">Street Tacos</div>
+                <div class="food-price">$12.99</div>
+                <div class="direction-label">Northwest</div>
+              </div>
+            </div>
+            
+            <div class="food-item" data-angle="180" data-food="pasta" data-direction="West">
+              <div class="food-card">
+                <div class="food-icon">🍝</div>
+                <div class="food-label">Truffle Pasta</div>
+                <div class="food-price">$22.99</div>
+                <div class="direction-label">West</div>
+              </div>
+            </div>
+            
+            <div class="food-item" data-angle="225" data-food="ramen" data-direction="Southwest">
+              <div class="food-card">
+                <div class="food-icon">🍜</div>
+                <div class="food-label">Tonkotsu Ramen</div>
+                <div class="food-price">$16.99</div>
+                <div class="direction-label">Southwest</div>
+              </div>
+            </div>
+            
+            <div class="food-item" data-angle="270" data-food="salad" data-direction="South">
+              <div class="food-card">
+                <div class="food-icon">🥗</div>
+                <div class="food-label">Caesar Salad</div>
+                <div class="food-price">$13.99</div>
+                <div class="direction-label">South</div>
+              </div>
+            </div>
+            
+            <div class="food-item" data-angle="315" data-food="steak" data-direction="Southeast">
+              <div class="food-card">
+                <div class="food-icon">🥩</div>
+                <div class="food-label">Wagyu Steak</div>
+                <div class="food-price">$45.99</div>
+                <div class="direction-label">Southeast</div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Center hub -->
+          <div class="center-hub">
+            <div class="hub-content">
+              <div class="featured-icon">🍽️</div>
+              <div class="featured-title">Current Selection</div>
+              <div class="featured-description">
+                <span id="current-direction">East Direction</span>
+                <br>
+                <span id="current-food">Margherita Pizza</span>
+              </div>
+              <div class="featured-rating">
+                <span class="stars">★★★★★</span>
+                <span class="rating-text">5.0</span>
+              </div>
+            </div>
+            
+            <div class="hub-glow"></div>
+          </div>
+          
+          <!-- Decorative rings -->
+          <!-- <div class="deco-ring ring-1"></div>
+          <div class="deco-ring ring-2"></div>
+          <div class="deco-ring ring-3"></div> -->
+        </div>
+        
+        <!-- Manual Control panel -->
+        <!-- <div class="control-panel">
+          <button class="control-btn rotation-btn" id="rotateCounterBtn">
+            <span class="btn-icon">↺</span>
+            <span class="btn-text">Counter-Clockwise</span>
+          </button>
+          
+          <div class="direction-indicator">
+            <div class="compass">
+              <div class="compass-needle" id="compassNeedle"></div>
+              <div class="compass-directions">
+                <span class="dir-n">N</span>
+                <span class="dir-ne">NE</span>
+                <span class="dir-e">E</span>
+                <span class="dir-se">SE</span>
+                <span class="dir-s">S</span>
+                <span class="dir-sw">SW</span>
+                <span class="dir-w">W</span>
+                <span class="dir-nw">NW</span>
+              </div>
+            </div>
+          </div>
+          
+          <button class="control-btn rotation-btn" id="rotateClockBtn">
+            <span class="btn-icon">↻</span>
+            <span class="btn-text">Clockwise</span>
+          </button>
+        </div> -->
+        
+        <!-- Additional Controls -->
+        <!-- <div class="secondary-controls">
+          <button class="control-btn" id="playPauseBtn">
+            <span class="btn-icon">⏸️</span>
+            <span class="btn-text">Pause Auto</span>
+          </button>
+          
+          <button class="control-btn" id="speedBtn">
+            <span class="btn-icon">⚡</span>
+            <span class="btn-text">Speed</span>
+          </button>
+          
+          <button class="control-btn" id="resetBtn">
+            <span class="btn-icon">🎯</span>
+            <span class="btn-text">Reset</span>
+          </button>
+        </div> -->
+        
+        <!-- Food details panel -->
+        <div class="details-panel" id="detailsPanel">
+          <div class="details-content">
+            <div class="details-close" id="closeDetails">×</div>
+            <div class="details-icon" id="detailsIcon">🍕</div>
+            <div class="details-name" id="detailsName">Margherita Pizza</div>
+            <div class="details-direction" id="detailsDirection">East Direction</div>
+            <div class="details-description" id="detailsDescription">
+              Fresh mozzarella, San Marzano tomatoes, and basil on our signature wood-fired crust
+            </div>
+            <div class="details-price" id="detailsPrice">$18.99</div>
+            <button class="order-btn">Order Now</button>
+          </div>
+        </div>
+      </div>
+    </div>

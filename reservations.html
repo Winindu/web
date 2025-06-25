@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservations - Whipering Willow</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/reservations.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="logo.png" alt="Whipering Willow">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="reservations.html" class="active">RESERVATIONS</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <div class="nav-icons">
+        <a href="login.html" class="account-icon"><i class="icon-user"></i></a>
+        <a href="#" class="cart-icon"><i class="icon-cart"></i></a>
+        <a href="#" class="search-icon"><i class="icon-search"></i></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Make a Reservation</h1>
+      <p>Reserve your table for an unforgettable dining experience at Whipering Willow</p>
+    </div>
+  </section>
+
+  <!-- Reservation Form Section -->
+  <section class="reservation-form-section">
+    <div class="container">
+      <div class="form-container">
+        <h2>Reservation Details</h2>
+        <form id="reservationForm">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error-message" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-message" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" placeholder="e.g., 0412345678" required>
+            <span class="error-message" id="phoneError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="date">Reservation Date:</label>
+            <input type="text" id="date" name="date" placeholder="YYYY-MM-DD (e.g., 2025-01-15)" required>
+            <span class="error-message" id="dateError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="time">Reservation Time:</label>
+            <input type="text" id="time" name="time" placeholder="HH:MM (e.g., 19:30)" required>
+            <span class="error-message" id="timeError"></span>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="btn primary-btn">Make Reservation</button>
+          </div>
+        </form>
+
+        <!-- Success Message -->
+        <div id="successMessage" class="success-message" style="display: none;">
+          <h3>Reservation Confirmed!</h3>
+          <p>Thank you for your reservation. We will contact you shortly to confirm the details.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="logo.png" alt="Whipering Willow">
+        </div>
+        <div class="footer-contact">
+          <p><a href="tel:0412345678">041 234 5678</a></p>
+          <p><a href="mailto:reservations@whiperingwillow.com">reservations@whiperingwillow.com</a></p>
+          <p>23 Paradise Rd, Colombo 07, Sri Lanka</p>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="social-icon"><i class="icon-facebook"></i></a>
+          <a href="#" class="social-icon"><i class="icon-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="icon-linkedin"></i></a>
+          <a href="#" class="social-icon"><i class="icon-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-newsletter">
+        <form id="newsletter-form">
+          <input type="email" placeholder="Your Email" required>
+          <button type="submit" class="btn primary-btn">Subscribe</button>
+        </form>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; 2025 All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/reservations.js"></script>
+</body>
+</html>

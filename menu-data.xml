@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <!-- Breakfast Items -->
+  <item>
+    <id>1</id>
+    <name>Classic Pancakes</name>
+    <category>Breakfast</category>
+    <price>8.99</price>
+    <image>https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg</image>
+  </item>
+  <item>
+    <id>2</id>
+    <name>Eggs Benedict</name>
+    <category>Breakfast</category>
+    <price>12.99</price>
+    <image>https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg</image>
+  </item>
+  <item>
+    <id>3</id>
+    <name>French Toast</name>
+    <category>Breakfast</category>
+    <price>9.99</price>
+    <image>https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg</image>
+  </item>
+  <item>
+    <id>4</id>
+    <name>Avocado Toast</name>
+    <category>Breakfast</category>
+    <price>11.99</price>
+    <image>https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg</image>
+  </item>
+  <item>
+    <id>5</id>
+    <name>Breakfast Burrito</name>
+    <category>Breakfast</category>
+    <price>10.99</price>
+    <image>https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg</image>
+  </item>
+  <item>
+    <id>6</id>
+    <name>Oatmeal Bowl</name>
+    <category>Breakfast</category>
+    <price>7.99</price>
+    <image>https://images.pexels.com/photos/216951/pexels-photo-216951.jpeg</image>
+  </item>
+  <item>
+    <id>7</id>
+    <name>Breakfast Sandwich</name>
+    <category>Breakfast</category>
+    <price>9.49</price>
+    <image>https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg</image>
+  </item>
+  <item>
+    <id>8</id>
+    <name>Yogurt Parfait</name>
+    <category>Breakfast</category>
+    <price>6.99</price>
+    <image>https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg</image>
+  </item>
+  <item>
+    <id>9</id>
+    <name>Bagel with Cream Cheese</name>
+    <category>Breakfast</category>
+    <price>5.99</price>
+    <image>https://images.pexels.com/photos/4109743/pexels-photo-4109743.jpeg</image>
+  </item>
+  <item>
+    <id>10</id>
+    <name>Breakfast Platter</name>
+    <category>Breakfast</category>
+    <price>14.99</price>
+    <image>https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg</image>
+  </item>
+
+  <!-- Lunch Items -->
+  <item>
+    <id>11</id>
+    <name>Caesar Salad</name>
+    <category>Lunch</category>
+    <price>13.99</price>
+    <image>https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg</image>
+  </item>
+  <item>
+    <id>12</id>
+    <name>Club Sandwich</name>
+    <category>Lunch</category>
+    <price>12.99</price>
+    <image>https://images.pexels.com/photos/1647163/pexels-photo-1647163.jpeg</image>
+  </item>
+  <item>
+    <id>13</id>
+    <name>Grilled Chicken Wrap</name>
+    <category>Lunch</category>
+    <price>11.99</price>
+    <image>https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg</image>
+  </item>
+  <item>
+    <id>14</id>
+    <name>Fish and Chips</name>
+    <category>Lunch</category>
+    <price>16.99</price>
+    <image>https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg</image>
+  </item>
+  <item>
+    <id>15</id>
+    <name>Quinoa Bowl</name>
+    <category>Lunch</category>
+    <price>14.99</price>
+    <image>https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg</image>
+  </item>
+  <item>
+    <id>16</id>
+    <name>Burger Deluxe</name>
+    <category>Lunch</category>
+    <price>15.99</price>
+    <image>https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg</image>
+  </item>
+  <item>
+    <id>17</id>
+    <name>Soup of the Day</name>
+    <category>Lunch</category>
+    <price>8.99</price>
+    <image>https://images.pexels.com/photos/539451/pexels-photo-539451.jpeg</image>
+  </item>
+  <item>
+    <id>18</id>
+    <name>Pasta Primavera</name>
+    <category>Lunch</category>
+    <price>13.99</price>
+    <image>https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg</image>
+  </item>
+  <item>
+    <id>19</id>
+    <name>Tuna Salad</name>
+    <category>Lunch</category>
+    <price>12.49</price>
+    <image>https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg</image>
+  </item>
+  <item>
+    <id>20</id>
+    <name>Chicken Quesadilla</name>
+    <category>Lunch</category>
+    <price>11.99</price>
+    <image>https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg</image>
+  </item>
+
+  <!-- Dinner Items -->
+  <item>
+    <id>21</id>
+    <name>Grilled Salmon</name>
+    <category>Dinner</category>
+    <price>24.99</price>
+    <image>https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg</image>
+  </item>
+  <item>
+    <id>22</id>
+    <name>Ribeye Steak</name>
+    <category>Dinner</category>
+    <price>32.99</price>
+    <image>https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg</image>
+  </item>
+  <item>
+    <id>23</id>
+    <name>Lobster Thermidor</name>
+    <category>Dinner</category>
+    <price>38.99</price>
+    <image>https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg</image>
+  </item>
+  <item>
+    <id>24</id>
+    <name>Lamb Chops</name>
+    <category>Dinner</category>
+    <price>28.99</price>
+    <image>https://images.pexels.com/photos/299347/pexels-photo-299347.jpeg</image>
+  </item>
+  <item>
+    <id>25</id>
+    <name>Chicken Parmesan</name>
+    <category>Dinner</category>
+    <price>22.99</price>
+    <image>https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg</image>
+  </item>
+  <item>
+    <id>26</id>
+    <name>Seafood Paella</name>
+    <category>Dinner</category>
+    <price>26.99</price>
+    <image>https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg</image>
+  </item>
+  <item>
+    <id>27</id>
+    <name>Duck Confit</name>
+    <category>Dinner</category>
+    <price>29.99</price>
+    <image>https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg</image>
+  </item>
+  <item>
+    <id>28</id>
+    <name>Vegetarian Risotto</name>
+    <category>Dinner</category>
+    <price>19.99</price>
+    <image>https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg</image>
+  </item>
+  <item>
+    <id>29</id>
+    <name>Pork Tenderloin</name>
+    <category>Dinner</category>
+    <price>25.99</price>
+    <image>https://images.pexels.com/photos/769289/pexels-photo-769289.jpeg</image>
+  </item>
+  <item>
+    <id>30</id>
+    <name>Beef Wellington</name>
+    <category>Dinner</category>
+    <price>35.99</price>
+    <image>https://images.pexels.com/photos/675951/pexels-photo-675951.jpeg</image>
+  </item>
+
+  <!-- Dessert Items -->
+  <item>
+    <id>31</id>
+    <name>Chocolate Lava Cake</name>
+    <category>Dessert</category>
+    <price>8.99</price>
+    <image>https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg</image>
+  </item>
+  <item>
+    <id>32</id>
+    <name>Tiramisu</name>
+    <category>Dessert</category>
+    <price>7.99</price>
+    <image>https://images.pexels.com/photos/6880219/pexels-photo-6880219.jpeg</image>
+  </item>
+  <item>
+    <id>33</id>
+    <name>Cheesecake</name>
+    <category>Dessert</category>
+    <price>6.99</price>
+    <image>https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg</image>
+  </item>
+  <item>
+    <id>34</id>
+    <name>Crème Brûlée</name>
+    <category>Dessert</category>
+    <price>8.49</price>
+    <image>https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg</image>
+  </item>
+  <item>
+    <id>35</id>
+    <name>Apple Pie</name>
+    <category>Dessert</category>
+    <price>6.49</price>
+    <image>https://images.pexels.com/photos/1070850/pexels-photo-1070850.jpeg</image>
+  </item>
+  <item>
+    <id>36</id>
+    <name>Ice Cream Sundae</name>
+    <category>Dessert</category>
+    <price>5.99</price>
+    <image>https://images.pexels.com/photos/1352278/pexels-photo-1352278.jpeg</image>
+  </item>
+  <item>
+    <id>37</id>
+    <name>Chocolate Mousse</name>
+    <category>Dessert</category>
+    <price>7.49</price>
+    <image>https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg</image>
+  </item>
+  <item>
+    <id>38</id>
+    <name>Fruit Tart</name>
+    <category>Dessert</category>
+    <price>6.99</price>
+    <image>https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg</image>
+  </item>
+  <item>
+    <id>39</id>
+    <name>Panna Cotta</name>
+    <category>Dessert</category>
+    <price>7.99</price>
+    <image>https://images.pexels.com/photos/3026808/pexels-photo-3026808.jpeg</image>
+  </item>
+  <item>
+    <id>40</id>
+    <name>Brownie Delight</name>
+    <category>Dessert</category>
+    <price>6.49</price>
+    <image>https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg</image>
+  </item>
+
+  <!-- Drinks Items -->
+  <item>
+    <id>41</id>
+    <name>Fresh Orange Juice</name>
+    <category>Drinks</category>
+    <price>4.99</price>
+    <image>https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg</image>
+  </item>
+  <item>
+    <id>42</id>
+    <name>Cappuccino</name>
+    <category>Drinks</category>
+    <price>3.99</price>
+    <image>https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg</image>
+  </item>
+  <item>
+    <id>43</id>
+    <name>Green Tea</name>
+    <category>Drinks</category>
+    <price>2.99</price>
+    <image>https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg</image>
+  </item>
+  <item>
+    <id>44</id>
+    <name>Iced Latte</name>
+    <category>Drinks</category>
+    <price>4.49</price>
+    <image>https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg</image>
+  </item>
+  <item>
+    <id>45</id>
+    <name>Smoothie Bowl</name>
+    <category>Drinks</category>
+    <price>6.99</price>
+    <image>https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg</image>
+  </item>
+  <item>
+    <id>46</id>
+    <name>Red Wine</name>
+    <category>Drinks</category>
+    <price>8.99</price>
+    <image>https://images.pexels.com/photos/66636/pexels-photo-66636.jpeg</image>
+  </item>
+  <item>
+    <id>47</id>
+    <name>Craft Beer</name>
+    <category>Drinks</category>
+    <price>5.99</price>
+    <image>https://images.pexels.com/photos/1552630/pexels-photo-1552630.jpeg</image>
+  </item>
+  <item>
+    <id>48</id>
+    <name>Sparkling Water</name>
+    <category>Drinks</category>
+    <price>2.49</price>
+    <image>https://images.pexels.com/photos/416528/pexels-photo-416528.jpeg</image>
+  </item>
+  <item>
+    <id>49</id>
+    <name>Mojito</name>
+    <category>Drinks</category>
+    <price>7.99</price>
+    <image>https://images.pexels.com/photos/1304540/pexels-photo-1304540.jpeg</image>
+  </item>
+  <item>
+    <id>50</id>
+    <name>Hot Chocolate</name>
+    <category>Drinks</category>
+    <price>3.49</price>
+    <image>https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg</image>
+  </item>
+
+  <!-- Appetizers Items -->
+  <item>
+    <id>51</id>
+    <name>Bruschetta</name>
+    <category>Appetizers</category>
+    <price>9.99</price>
+    <image>https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg</image>
+  </item>
+  <item>
+    <id>52</id>
+    <name>Calamari Rings</name>
+    <category>Appetizers</category>
+    <price>12.99</price>
+    <image>https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg</image>
+  </item>
+  <item>
+    <id>53</id>
+    <name>Chicken Wings</name>
+    <category>Appetizers</category>
+    <price>11.99</price>
+    <image>https://images.pexels.com/photos/60616/fried-chicken-chicken-fried-crunchy-60616.jpeg</image>
+  </item>
+  <item>
+    <id>54</id>
+    <name>Stuffed Mushrooms</name>
+    <category>Appetizers</category>
+    <price>10.99</price>
+    <image>https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg</image>
+  </item>
+  <item>
+    <id>55</id>
+    <name>Shrimp Cocktail</name>
+    <category>Appetizers</category>
+    <price>14.99</price>
+    <image>https://images.pexels.com/photos/566566/pexels-photo-566566.jpeg</image>
+  </item>
+  <item>
+    <id>56</id>
+    <name>Cheese Platter</name>
+    <category>Appetizers</category>
+    <price>16.99</price>
+    <image>https://images.pexels.com/photos/1927383/pexels-photo-1927383.jpeg</image>
+  </item>
+  <item>
+    <id>57</id>
+    <name>Spinach Dip</name>
+    <category>Appetizers</category>
+    <price>8.99</price>
+    <image>https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg</image>
+  </item>
+  <item>
+    <id>58</id>
+    <name>Nachos Supreme</name>
+    <category>Appetizers</category>
+    <price>13.99</price>
+    <image>https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg</image>
+  </item>
+  <item>
+    <id>59</id>
+    <name>Mozzarella Sticks</name>
+    <category>Appetizers</category>
+    <price>9.49</price>
+    <image>https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg</image>
+  </item>
+  <item>
+    <id>60</id>
+    <name>Garlic Bread</name>
+    <category>Appetizers</category>
+    <price>6.99</price>
+    <image>https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg</image>
+  </item>
+</menu>

@@ -1,0 +1,266 @@
+/* About Page Styles */
+
+/* Hero Section */
+.hero {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  animation: fadeIn 1s ease-out;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  animation: fadeIn 1s ease-out 0.3s forwards;
+  opacity: 0;
+}
+
+/* Story Section */
+.story-section {
+  padding: 100px 0;
+  background-color: var(--bg-color);
+}
+
+.story-content {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.story-text {
+  flex: 1;
+}
+
+.story-text h2 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.story-text p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.story-image {
+  flex: 1;
+  position: relative;
+}
+
+.story-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 20px 40px var(--shadow-color);
+}
+
+/* Values Section */
+.values-section {
+  padding: 100px 0;
+  background-color: var(--bg-light);
+}
+
+.values-section h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.value-card {
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform var(--transition-speed) ease;
+}
+
+.value-card:hover {
+  transform: translateY(-10px);
+}
+
+.value-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.value-card h3 {
+  padding: 20px;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.value-card p {
+  padding: 0 20px 20px;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Team Section */
+.team-section {
+  padding: 100px 0;
+  background-color: var(--bg-color);
+}
+
+.team-section h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.team-member {
+  text-align: center;
+  background-color: var(--bg-light);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform var(--transition-speed) ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-member img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  margin: 20px 0 5px;
+}
+
+.team-member .role {
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.team-member p {
+  padding: 0 20px 20px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Awards Section */
+.awards-section {
+  padding: 100px 0;
+  background-color: var(--bg-light);
+}
+
+.awards-section h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.award {
+  text-align: center;
+  padding: 30px;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  transition: transform var(--transition-speed) ease;
+}
+
+.award:hover {
+  transform: translateY(-10px);
+}
+
+.award h3 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.award p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .values-grid,
+  .team-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .awards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .story-content {
+    flex-direction: column;
+  }
+
+  .story-image {
+    order: -1;
+  }
+
+  .story-image img {
+    height: 300px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .values-grid,
+  .team-grid,
+  .awards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .value-card,
+  .team-member,
+  .award {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    height: 50vh;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .story-text h2 {
+    font-size: 2rem;
+  }
+
+  .section-padding {
+    padding: 60px 0;
+  }
+}
